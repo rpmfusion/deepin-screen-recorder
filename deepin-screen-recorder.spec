@@ -1,6 +1,6 @@
 Name:           deepin-screen-recorder
 Version:        5.0.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Deepin Screen Recorder
 License:        GPLv3+
 URL:            https://github.com/linuxdeepin/deepin-screen-recorder
@@ -62,6 +62,9 @@ appstream-util validate-relax --nonet %{buildroot}%{_datadir}/appdata/%{name}.ap
 %{_datadir}/dbus-1/services/com.deepin.ScreenRecorder.service
 
 %changelog
+* Tue Feb 04 2020 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 5.0.0-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_32_Mass_Rebuild
+
 * Mon Aug 26 2019 Zamir SUN <sztsian@gmail.com> - 5.0.0-1
 - Update to 5.0.0
 
